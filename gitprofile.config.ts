@@ -47,6 +47,14 @@ const CONFIG = {
             'metaverse.png',
           link: 'https://github.com/MetaverseRaccoons',
         },
+        {
+          title: 'HydroTeam',
+          description:
+            'Co founder of the hydrogen racing team at KUL. During the founding year, we build a prototype Radical class racecar with a hydrogen powered ICE engine. I was part of the leadership and supervised 20 part-timers.',
+          imageUrl:
+            'hydro.png',
+          link: 'https://github.com/HydroTeamBelgium',
+        }
       ],
     },
   },
