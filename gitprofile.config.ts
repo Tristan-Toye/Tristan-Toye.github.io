@@ -95,7 +95,7 @@ const CONFIG = {
     'numpy & pandas',
     'nlp',
     'Docker',
-    'AWS,
+    'AWS',
     'Google cloud'
   ],
   experiences: [
