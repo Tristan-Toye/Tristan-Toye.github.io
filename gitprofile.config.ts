@@ -37,7 +37,7 @@ const CONFIG = {
           description:
             'Proof of Concept for the Nation Builder program by the US department of State. Matching tool to trade skills without monetary exchange.',
           imageUrl:
-            'https://drive.google.com/file/d/1SZvBbXztUotF4vWJsFKpBFrRlM7o6_zk/view?usp=sharing',
+            'https://github.com/Tristan-Toye/Tristan-Toye.github.io/blob/main/switchskills.png',
           link: 'https://github.com/SwitchSkills',
         },
         {
