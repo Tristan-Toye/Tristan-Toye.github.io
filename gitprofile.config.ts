@@ -82,8 +82,7 @@ const CONFIG = {
     email: 'toye.tristan.work@gmail.com',
   },
   resume: {
-    fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+    fileUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID/view?usp=sharing', // Google Drive link. Replace YOUR_FILE_ID with your actual file ID
   },
   skills: [
     'PHP',

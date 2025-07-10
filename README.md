@@ -221,8 +221,7 @@ const CONFIG = {
     email: 'arifulalamszn@gmail.com',
   },
   resume: {
-    fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+    fileUrl: 'resume.pdf', // Local resume file from resume folder. You can also use external URLs like 'https://example.com/resume.pdf'
   },
   skills: [
     'PHP',

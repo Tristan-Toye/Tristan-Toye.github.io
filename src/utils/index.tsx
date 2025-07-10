@@ -84,7 +84,7 @@ export const getSanitizedConfig = (
         discord: config?.social?.discord,
       },
       resume: {
-        fileUrl: config?.resume?.fileUrl || '',
+        fileUrl: config?.resume?.fileUrl ? resolveResumeUrl(config.resume.fileUrl) : '',
       },
       skills: config?.skills || [],
       experiences:
@@ -227,4 +227,19 @@ export const resolveImageUrl = (imageUrl: string): string => {
   
   // If it's a local image filename, prepend the images folder path
   return `/images/${imageUrl}`;
+};
+
+/**
+ * Resolves resume URL to handle both local resume files from the resume folder and external URLs
+ * @param resumeUrl - The resume URL or filename from the resume folder
+ * @returns The resolved resume URL
+ */
+export const resolveResumeUrl = (resumeUrl: string): string => {
+  // If it's already a full URL (starts with http/https), return as is
+  if (resumeUrl.startsWith('http://') || resumeUrl.startsWith('https://')) {
+    return resumeUrl;
+  }
+  
+  // If it's a local resume filename, prepend the resume folder path
+  return `/resume/${resumeUrl}`;
 };
