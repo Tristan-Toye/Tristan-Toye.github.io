@@ -82,7 +82,7 @@ const CONFIG = {
     email: 'toye.tristan.work@gmail.com',
   },
   resume: {
-    fileUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID/view?usp=sharing', // Google Drive link. Replace YOUR_FILE_ID with your actual file ID
+    fileUrl: 'resume.pdf', // Google Drive link. Replace YOUR_FILE_ID with your actual file ID
   },
   skills: [
     'Python',
