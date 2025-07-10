@@ -33,6 +33,14 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
+          title: 'HydroTeam',
+          description:
+            'Co founder of the hydrogen racing team at KUL. During the founding year, we build a prototype Radical class racecar with a hydrogen powered ICE engine. I was part of the leadership and supervised 20 part-timers.',
+          imageUrl:
+            'hydro.png',
+          link: 'https://github.com/HydroTeamBelgium',
+        },
+        {
           title: 'SwitchSkills',
           description:
             'Proof of Concept for the Nation Builder program by the US department of State. Matching tool to trade skills without monetary exchange.',
@@ -46,23 +54,15 @@ const CONFIG = {
           imageUrl:
             'metaverse.png',
           link: 'https://github.com/MetaverseRaccoons',
-        },
-        {
-          title: 'HydroTeam',
-          description:
-            'Co founder of the hydrogen racing team at KUL. During the founding year, we build a prototype Radical class racecar with a hydrogen powered ICE engine. I was part of the leadership and supervised 20 part-timers.',
-          imageUrl:
-            'hydro.png',
-          link: 'https://github.com/HydroTeamBelgium',
         }
       ],
     },
   },
-  seo: { title: 'Portfolio of Ariful Alam', description: '', imageURL: '' },
+  seo: { title: 'Portfolio of Tristan Toye', description: 'Tristan Toye resume portfolio cv', imageURL: '' },
   social: {
-    linkedin: 'ariful-alam',
-    x: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
+    linkedin: 'tristan-toye',
+    x: '',
+    mastodon: '',
     researchGate: '',
     facebook: '',
     instagram: '',
@@ -72,14 +72,14 @@ const CONFIG = {
     udemy: '',
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
+    medium: '',
+    dev: '',
     stackoverflow: '', // example: '1/jeff-atwood'
     discord: '',
     telegram: '',
-    website: 'https://www.arifszn.com',
+    website: '',
     phone: '',
-    email: 'arifulalamszn@gmail.com',
+    email: 'toye.tristan.work@gmail.com',
   },
   resume: {
     fileUrl:
