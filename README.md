@@ -626,6 +626,7 @@ const CONFIG = {
 
 - **Highlight Projects Beyond GitHub:** Feature projects hosted on other platforms or personal websites.
 - **Control over Content:** Provide custom titles, descriptions, images, and links for each external project.
+- **Local Images Support:** You can use local images from the `images` folder by specifying just the filename (e.g., `'switchskills.png'`) or use external URLs for remote images.
 
 ```ts
 // gitprofile.config.ts
@@ -640,16 +641,15 @@ const CONFIG = {
           title: 'Project Name',
           description:
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+          imageUrl: 'switchskills.png', // Local image from images folder
           link: 'https://example.com',
         },
         {
-          title: 'Project Name',
+          title: 'Another Project',
           description:
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg', // External URL
           link: 'https://example.com',
         },
       ],

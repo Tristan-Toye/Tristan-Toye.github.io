@@ -213,3 +213,18 @@ export const getLanguageColor = (language: string): string => {
     return 'gray';
   }
 };
+
+/**
+ * Resolves image URL to handle both local images from the images folder and external URLs
+ * @param imageUrl - The image URL or filename from the images folder
+ * @returns The resolved image URL
+ */
+export const resolveImageUrl = (imageUrl: string): string => {
+  // If it's already a full URL (starts with http/https), return as is
+  if (imageUrl.startsWith('http://') || imageUrl.startsWith('https://')) {
+    return imageUrl;
+  }
+  
+  // If it's a local image filename, prepend the images folder path
+  return `/images/${imageUrl}`;
+};

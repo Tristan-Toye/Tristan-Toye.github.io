@@ -1,7 +1,7 @@
 import { Fragment } from 'react';
 import LazyImage from '../lazy-image';
 import { MdOpenInNew } from 'react-icons/md';
-import { ga, skeleton } from '../../utils';
+import { ga, skeleton, resolveImageUrl } from '../../utils';
 import { SanitizedExternalProject } from '../../interfaces/sanitized-config';
 
 const ExternalProjectCard = ({
@@ -101,7 +101,7 @@ const ExternalProjectCard = ({
                     <div className="avatar opacity-90">
                       <div className="w-24 h-24 mask mask-squircle">
                         <LazyImage
-                          src={item.imageUrl}
+                          src={resolveImageUrl(item.imageUrl)}
                           alt={'thumbnail'}
                           placeholder={skeleton({
                             widthCls: 'w-full',

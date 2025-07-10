@@ -36,8 +36,7 @@ const CONFIG = {
           title: 'SwitchSkills',
           description:
             'Proof of Concept for the Nation Builder program by the US department of State. Matching tool to trade skills without monetary exchange.',
-          imageUrl:
-            'switchskills.png',
+          imageUrl: 'switchskills.png',
           link: 'https://github.com/SwitchSkills',
         },
         {
