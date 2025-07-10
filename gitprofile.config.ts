@@ -37,16 +37,16 @@ const CONFIG = {
           description:
             'Proof of Concept for the Nation Builder program by the US department of State. Matching tool to trade skills without monetary exchange.',
           imageUrl:
-            'https://drive.google.com/file/d/1BLBUidC6fpAsAz942JrezO7G4COrmwvI/view?usp=sharing',
+            'https://drive.google.com/file/d/1SZvBbXztUotF4vWJsFKpBFrRlM7o6_zk/view?usp=sharing',
           link: 'https://github.com/SwitchSkills',
         },
         {
-          title: 'Project Name',
+          title: 'Metaverse Raccoons',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'Metaverse driving simulator with AI traffic sign recognition and automatic city builder using GNSS data',
           imageUrl:
             'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+          link: 'https://github.com/MetaverseRaccoons',
         },
       ],
     },
