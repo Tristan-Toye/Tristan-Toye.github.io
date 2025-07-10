@@ -93,10 +93,10 @@ const GithubProjectCard = ({
       >
         <div className="flex justify-between flex-col p-8 h-full w-full">
           <div>
-            <div className="flex items-center truncate">
-              <div className="card-title text-lg tracking-wide flex text-base-content opacity-60">
-                <MdInsertLink className="my-auto" />
-                <span>{item.name}</span>
+            <div className="flex items-start">
+              <div className="card-title text-lg tracking-wide flex text-base-content opacity-60 break-words">
+                <MdInsertLink className="my-auto mr-1 flex-shrink-0" />
+                <span className="break-words">{item.name}</span>
               </div>
             </div>
             <p className="mb-5 mt-1 text-base-content text-sm">
