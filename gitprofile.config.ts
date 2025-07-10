@@ -44,7 +44,7 @@ const CONFIG = {
           description:
             'Metaverse driving simulator with AI traffic sign recognition and automatic city builder using GNSS data',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+            'metaverse.png',
           link: 'https://github.com/MetaverseRaccoons',
         },
       ],
