@@ -85,83 +85,111 @@ const CONFIG = {
     fileUrl: 'https://drive.google.com/file/d/YOUR_FILE_ID/view?usp=sharing', // Google Drive link. Replace YOUR_FILE_ID with your actual file ID
   },
   skills: [
-    'PHP',
-    'Laravel',
-    'JavaScript',
-    'React.js',
-    'Node.js',
-    'Nest.js',
+    'Python',
+    'C#',
+    'Rust',
     'MySQL',
     'PostgreSQL',
+    'Java',
     'Git',
+    'numpy & pandas',
+    'nlp',
     'Docker',
-    'PHPUnit',
-    'CSS',
-    'Antd',
-    'Tailwind',
+    'AWS,
+    'Google cloud'
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
+      company: 'Imec',
+      position: 'R&D engineer',
+      from: 'March 2025',
       to: 'Present',
-      companyLink: 'https://example.com',
+      companyLink: 'https://www.imec-int.com/en/expertise/compute-system-architecture',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'Google developer group (Leuven campus)',
+      position: 'Corporate relations lead',
+      from: 'July 2025',
+      to: 'Present',
+      companyLink: 'https://gdg.community.dev/',
+    },
+    {
+      company: 'HydroTeam',
+      position: 'Co-Founder & Electronics lead',
+      from: 'July 2024',
+      to: 'July 2025',
+      companyLink: 'https://www.hydroteam.be/',
+    },
+    {
+      company: 'Cardio Flow Design',
+      position: 'R&D software engineer',
+      from: 'October 2023',
+      to: 'August 2024',
+      companyLink: 'https://cfd.life/en/',
+    },
+    {
+      company: 'Manipal University Jaipur',
+      position: 'Researcher',
+      from: 'July 2023',
+      to: 'October 2023',
+      companyLink: 'https://munsocietybelgium.org/',
+    },
+    {
+      company: 'MUN Society Belgium (MSB)',
+      position: 'active member',
+      from: 'September 2022',
+      to: 'August 2023',
+      companyLink: 'https://munsocietybelgium.org/',
+    },
+    {
+      company: 'Twipe',
+      position: 'Junior software engineer',
+      from: 'Jul 2022',
+      to: 'May 2023',
+      companyLink: 'https://www.twipemobile.com/',
     },
   ],
   certifications: [
     {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
+      name: 'Diplomacy Award',
+      body: 'Harvard WorldMUN',
+      year: 'March 2023',
+      link: 'https://drive.google.com/file/d/1mIWYmpEU0TsaMQvGn6bAVBU-FzQMftIB/view?usp=sharing',
+    },
+    {
+      name: 'Best Delegate Award',
+      body: 'Oxford MUN',
+      year: 'November 2022',
+      link: 'https://drive.google.com/file/d/1BqTEqK2Cs-z0neHFgSx_vS7_EeUTy0Z3/view?usp=sharing',
+    },
+    {
+      name: 'Engineering Alumni Award',
+      body: 'KU Leuven',
+      year: 'December 2021',
+      link: 'https://drive.google.com/file/d/1l3i9zE3dsEoqDGS8VXoOqy_h95ScM6U_/view?usp=sharing',
     },
   ],
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: 'Ku Leuven',
+      degree: 'Master of engineering computer science: Artificial Intelligence',
+      from: '2024',
+      to: '2026',
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'KU Leuven',
+      degree: 'Bachelor of Engineer: computer science & electrical engineering',
+      from: '2020',
+      to: '2023',
     },
   ],
   publications: [
-    {
-      title: 'Publication Title',
-      conferenceName: '',
-      journalName: 'Journal Name',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    },
-    {
-      title: 'Publication Title',
-      conferenceName: 'Conference Name',
-      journalName: '',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    },
+    {}
   ],
   // Display articles from your medium or dev account. (Optional)
   blog: {
     source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
+    username: '', // to hide blog section, keep it empty
     limit: 2, // How many articles to display. Max is 10.
   },
   googleAnalytics: {
@@ -224,14 +252,7 @@ const CONFIG = {
     ],
   },
 
-  // Optional Footer. Supports plain text or HTML.
-  footer: `Made with <a 
-      class="text-primary" href="https://github.com/arifszn/gitprofile"
-      target="_blank"
-      rel="noreferrer"
-    >GitProfile</a> and ❤️`,
-
-  enablePWA: true,
+   enablePWA: true,
 };
 
 export default CONFIG;
