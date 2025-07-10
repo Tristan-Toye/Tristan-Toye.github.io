@@ -20,7 +20,7 @@ const CONFIG = {
         limit: 32, // How many projects to display.
         exclude: {
           forks: false, // Forked projects will not be displayed if set to true.
-          projects: ['Tristan-Toye.github.io','gitignore'], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
+          projects: ['Tristan-Toye/Tristan-Toye.github.io','Tristan-Toye/gitignore'], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
         },
       },
       manual: {
@@ -37,7 +37,7 @@ const CONFIG = {
           description:
             'Proof of Concept for the Nation Builder program by the US department of State. Matching tool to trade skills without monetary exchange.',
           imageUrl:
-            'https://github.com/Tristan-Toye/Tristan-Toye.github.io/blob/main/switchskills.png',
+            'switchskills.png',
           link: 'https://github.com/SwitchSkills',
         },
         {
