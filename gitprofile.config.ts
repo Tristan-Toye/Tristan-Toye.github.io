@@ -92,11 +92,22 @@ const CONFIG = {
     'PostgreSQL',
     'Java',
     'Git',
-    'numpy & pandas',
-    'nlp',
+    'Numpy & Pandas',
+    'Sklearn',
+    'Jupyter Notebook',
+    'Nlp',
     'Docker',
     'AWS',
-    'Google cloud'
+    'Google cloud',
+    'Docker',
+    'Linux',
+    'Concurrency',
+    'Numerical Algebra Matematics',
+    'Probality Theory & Statistics',
+    'AI',
+    'ML',
+    'deep learning',
+    'Data science'
   ],
   experiences: [
     {
